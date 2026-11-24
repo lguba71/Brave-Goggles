@@ -1,0 +1,22 @@
+! name: Mechanical Engineering
+! description: Professional mechanical engineering search
+! public: false
+! author: Engineering
+
+! Preferred sources
+$boost=10,site=eng-tips.com
+$boost=9,site=engineeringtoolbox.com
+$boost=8,site=engineersedge.com
+$boost=8,site=skf.com
+$boost=8,site=schaeffler.com
+$boost=6,site=asme.org
+$boost=5,site=researchgate.net
+
+! Low priority sources
+$downrank=5,site=quora.com
+$downrank=3,site=facebook.com
+
+! Excluded sources
+$discard,site=pinterest.com
+$discard,site=temu.com
+$discard,site=aliexpress.com
