@@ -1,0 +1,29 @@
+! name: PTC Creo és CAD
+! description: CAD-modellezés, Creo, parametrikus tervezés és automatizálás
+! public: false
+! author: lguba71
+
+! Hivatalos PTC források
+$boost=10,site=ptc.com
+$boost=10,site=community.ptc.com
+$boost=10,site=support.ptc.com
+
+! CAD és mérnöki források
+$boost=8,site=eng-tips.com
+$boost=7,site=cadforum.cz
+$boost=7,site=3dconnexion.com
+$boost=6,site=grabcad.com
+$boost=6,site=develop3d.com
+$boost=5,site=cimdata.com
+$boost=5,site=github.com
+$boost=4,site=autodesk.com
+$boost=4,site=solidworks.com
+
+! Hátrasorolt oldalak
+$downrank=5,site=quora.com
+$downrank=4,site=facebook.com
+
+! Kizárt oldalak
+$discard,site=pinterest.com
+$discard,site=temu.com
+$discard,site=aliexpress.com
