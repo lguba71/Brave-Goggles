@@ -1,0 +1,49 @@
+! name: Üzletfejlesztés és ügyfélszerzés
+! description: B2B értékesítés, ügyfélszerzés, vállalkozásfejlesztés és piackutatás
+! public: false
+! author: lguba71
+
+! Vállalati adatbázisok
+$boost=10,site=europages.com
+$boost=10,site=kompass.com
+$boost=9,site=wlw.de
+$boost=9,site=directindustry.com
+$boost=8,site=linkedin.com
+$boost=8,site=northdata.de
+$boost=8,site=opencorporates.com
+
+! Ipari piac és technológia
+$boost=8,site=industryweek.com
+$boost=8,site=engineering.com
+$boost=7,site=automationworld.com
+$boost=7,site=machinedesign.com
+
+! Értékesítés és üzletfejlesztés
+$boost=9,site=hubspot.com
+$boost=8,site=salesforce.com
+$boost=8,site=pipedrive.com
+$boost=7,site=hbr.org
+$boost=7,site=mckinsey.com
+$boost=6,site=sba.gov
+
+! Európai üzleti információk
+$boost=9,site=europa.eu
+$boost=8,site=enterprise-europe-network.ec.europa.eu
+$boost=8,site=ahk.de
+$boost=8,site=hipa.hu
+$boost=8,site=mkik.hu
+$boost=7,site=ksh.hu
+
+! Szabadúszó projektek
+$boost=8,site=upwork.com
+$boost=8,site=freelancermap.de
+$boost=7,site=malt.com
+
+! Hátrasorolt oldalak
+$downrank=5,site=quora.com
+$downrank=4,site=facebook.com
+
+! Kizárt oldalak
+$discard,site=pinterest.com
+$discard,site=temu.com
+$discard,site=aliexpress.com
