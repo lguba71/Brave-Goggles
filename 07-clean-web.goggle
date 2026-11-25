@@ -1,0 +1,42 @@
+! name: Tiszta internetes keresés
+! description: Általános keresés csökkentett keresési zajjal
+! public: false
+! author: lguba71
+
+! Általános tudásforrások
+$boost=4,site=wikipedia.org
+$boost=4,site=britannica.com
+$boost=4,site=archive.org
+
+! Szakmai közösségek
+$boost=4,site=github.com
+$boost=4,site=stackoverflow.com
+$boost=4,site=stackexchange.com
+$boost=3,site=reddit.com
+
+! Független technológiai források
+$boost=4,site=arstechnica.com
+$boost=4,site=news.ycombinator.com
+$boost=3,site=howtogeek.com
+$boost=3,site=techspot.com
+
+! Hátrasorolt közösségi oldalak
+$downrank=6,site=facebook.com
+$downrank=6,site=instagram.com
+$downrank=6,site=tiktok.com
+$downrank=5,site=quora.com
+$downrank=3,site=medium.com
+
+! Hátrasorolt kereskedelmi oldalak
+$downrank=5,site=ebay.com
+$downrank=5,site=amazon.com
+$downrank=5,site=etsy.com
+
+! Kizárt oldalak
+$discard,site=pinterest.com
+$discard,site=pinterest.de
+$discard,site=pinterest.co.uk
+$discard,site=temu.com
+$discard,site=aliexpress.com
+$discard,site=alibaba.com
+$discard,site=shein.com
