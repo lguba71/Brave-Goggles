@@ -1,0 +1,56 @@
+! name: Ipari alkatrészek és beszállítók
+! description: Gépelemek, gyártói katalógusok, CAD-modellek és beszállítók
+! public: false
+! author: lguba71
+
+! Szabványos gépelemek
+$boost=10,site=misumi-europe.com
+$boost=10,site=norelem.com
+$boost=10,site=elesa-ganter.com
+$boost=9,site=ganternorm.com
+$boost=9,site=kipp.com
+$boost=8,site=mcmaster.com
+
+! Csapágyak és lineáris technika
+$boost=10,site=skf.com
+$boost=10,site=schaeffler.com
+$boost=9,site=thk.com
+$boost=9,site=hiwin.com
+$boost=9,site=igus.eu
+$boost=8,site=nsk.com
+$boost=8,site=ntn-snr.com
+
+! Pneumatika és automatizálás
+$boost=10,site=festo.com
+$boost=9,site=smc.eu
+$boost=9,site=boschrexroth.com
+$boost=8,site=parker.com
+$boost=8,site=burkert.com
+$boost=8,site=beckhoff.com
+
+! Alumínium profilrendszerek
+$boost=9,site=item24.com
+$boost=8,site=mk-group.com
+
+! Hajtástechnika
+$boost=9,site=sew-eurodrive.com
+$boost=8,site=nord.com
+$boost=8,site=bonfiglioli.com
+
+! CAD-modellek és katalógusok
+$boost=10,site=traceparts.com
+$boost=10,site=3dfindit.com
+$boost=9,site=partcommunity.com
+$boost=8,site=grabcad.com
+
+! Ipari kereskedők
+$boost=8,site=rs-online.com
+$boost=8,site=tme.eu
+$boost=7,site=conrad.hu
+$boost=7,site=haberkorn.com
+
+! Kizárt oldalak
+$discard,site=pinterest.com
+$discard,site=temu.com
+$discard,site=aliexpress.com
+$discard,site=shein.com
