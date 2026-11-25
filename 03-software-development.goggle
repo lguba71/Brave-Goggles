@@ -1,0 +1,39 @@
+! name: Szoftverfejlesztés
+! description: Programozás, alkalmazásfejlesztés, API és automatizálás
+! public: false
+! author: lguba71
+
+! Forráskód és problémamegoldás
+$boost=10,site=github.com
+$boost=9,site=stackoverflow.com
+$boost=8,site=stackexchange.com
+
+! Hivatalos dokumentációk
+$boost=10,site=learn.microsoft.com
+$boost=10,site=developer.mozilla.org
+$boost=10,site=docs.python.org
+$boost=9,site=typescriptlang.org
+$boost=9,site=nodejs.org
+$boost=9,site=react.dev
+$boost=9,site=dotnet.microsoft.com
+$boost=9,site=docs.github.com
+$boost=9,site=docs.docker.com
+$boost=8,site=sqlite.org
+$boost=8,site=postgresql.org
+$boost=8,site=platform.openai.com
+$boost=8,site=docs.anthropic.com
+
+! Szakmai közösségek
+$boost=6,site=dev.to
+$boost=6,site=freecodecamp.org
+$boost=5,site=reddit.com
+$boost=5,site=news.ycombinator.com
+
+! Hátrasorolt oldalak
+$downrank=5,site=quora.com
+$downrank=3,site=geeksforgeeks.org
+$downrank=3,site=medium.com
+
+! Kizárt oldalak
+$discard,site=pinterest.com
+$discard,site=facebook.com
