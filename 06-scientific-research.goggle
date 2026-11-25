@@ -1,0 +1,59 @@
+! name: Tudományos kutatás és szabványok
+! description: Tudományos publikációk, műszaki szabványok és mérnöki kutatások
+! public: false
+! author: lguba71
+
+! Szabványügyi szervezetek
+$boost=10,site=iso.org
+$boost=10,site=asme.org
+$boost=10,site=din.de
+$boost=10,site=astm.org
+$boost=10,site=iec.ch
+$boost=10,site=mszt.hu
+$boost=9,site=dinmedia.de
+$boost=9,site=sae.org
+$boost=9,site=bsigroup.com
+
+! Tudományos publikációk
+$boost=10,site=sciencedirect.com
+$boost=10,site=springer.com
+$boost=9,site=nature.com
+$boost=9,site=wiley.com
+$boost=9,site=tandfonline.com
+$boost=9,site=ieee.org
+$boost=8,site=mdpi.com
+$boost=8,site=arxiv.org
+$boost=8,site=researchgate.net
+
+! Tudományos adatbázisok
+$boost=9,site=semanticscholar.org
+$boost=9,site=crossref.org
+$boost=8,site=doaj.org
+$boost=8,site=core.ac.uk
+$boost=8,site=zenodo.org
+$boost=8,site=doi.org
+
+! Egyetemek és kutatóintézetek
+$boost=9,site=mit.edu
+$boost=9,site=stanford.edu
+$boost=9,site=bme.hu
+$boost=8,site=ethz.ch
+$boost=8,site=fraunhofer.de
+$boost=8,site=nist.gov
+$boost=8,site=nasa.gov
+
+! Anyagtudomány
+$boost=8,site=matweb.com
+$boost=8,site=makeitfrom.com
+$boost=8,site=azom.com
+
+! Hátrasorolt oldalak
+$downrank=5,site=quora.com
+$downrank=5,site=medium.com
+$downrank=4,site=reddit.com
+
+! Kizárt oldalak
+$discard,site=pinterest.com
+$discard,site=facebook.com
+$discard,site=temu.com
+$discard,site=aliexpress.com
